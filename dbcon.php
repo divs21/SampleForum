@@ -1,7 +1,7 @@
 <?php
 
 function openCon(){
-$con = new mysqli("mysql://mysql:3306/","root","pass1111",'forum') ;
+$con = new mysqli("mysql://mysql:3306/","mysqluser","pass1234",'forum') ;
 
 if ($con->connect_error) {
     die("Connection failed: " . $con->connect_error);
